@@ -1,0 +1,224 @@
+[01-Jul-2025 19:24:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kiyozumi_cf.usuarios' doesn't exist in /home/kiyozumi/public_html/qr/app/Models/Usuario.php:23
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Models/Usuario.php(23): PDOStatement->execute()
+#1 /home/kiyozumi/public_html/qr/app/Controllers/AuthController.php(24): Mindshot\Kiyozumicf\Models\Usuario->obtenerPorUsername('admin')
+#2 [internal function]: Mindshot\Kiyozumicf\Controllers\AuthController->login()
+#3 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#4 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#5 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Models/Usuario.php on line 23
+[01-Jul-2025 19:24:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kiyozumi/public_html/qr/app/Controllers/AuthController.php:27) in /home/kiyozumi/public_html/qr/app/Controllers/AuthController.php on line 39
+[01-Jul-2025 19:24:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kiyozumi/public_html/qr/app/Controllers/AuthController.php:27) in /home/kiyozumi/public_html/qr/app/Controllers/AuthController.php on line 39
+[03-Jul-2025 06:40:57 UTC] PHP Warning:  require_once(..//css/style.css): Failed to open stream: No such file or directory in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php on line 9
+[03-Jul-2025 06:40:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '..//css/style.css' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php:9
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/Controller.php(10): require_once()
+#1 /home/kiyozumi/public_html/qr/app/Controllers/ClasesController.php(20): Mindshot\Kiyozumicf\Core\Controller->view('Clases/clases', Array)
+#2 [internal function]: Mindshot\Kiyozumicf\Controllers\ClasesController->index()
+#3 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#4 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#5 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php on line 9
+[03-Jul-2025 06:40:59 UTC] PHP Warning:  require_once(..//css/style.css): Failed to open stream: No such file or directory in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php on line 9
+[03-Jul-2025 06:40:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '..//css/style.css' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php:9
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/Controller.php(10): require_once()
+#1 /home/kiyozumi/public_html/qr/app/Controllers/ClasesController.php(20): Mindshot\Kiyozumicf\Core\Controller->view('Clases/clases', Array)
+#2 [internal function]: Mindshot\Kiyozumicf\Controllers\ClasesController->index()
+#3 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#4 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#5 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php on line 9
+[03-Jul-2025 06:41:14 UTC] PHP Warning:  require_once(..//css/style.css): Failed to open stream: No such file or directory in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php on line 9
+[03-Jul-2025 06:41:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '..//css/style.css' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php:9
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/Controller.php(10): require_once()
+#1 /home/kiyozumi/public_html/qr/app/Controllers/ClasesController.php(20): Mindshot\Kiyozumicf\Core\Controller->view('Clases/clases', Array)
+#2 [internal function]: Mindshot\Kiyozumicf\Controllers\ClasesController->index()
+#3 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#4 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#5 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php on line 9
+[03-Jul-2025 06:41:15 UTC] PHP Warning:  require_once(..//css/style.css): Failed to open stream: No such file or directory in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php on line 9
+[03-Jul-2025 06:41:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '..//css/style.css' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php:9
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/Controller.php(10): require_once()
+#1 /home/kiyozumi/public_html/qr/app/Controllers/ClasesController.php(20): Mindshot\Kiyozumicf\Core\Controller->view('Clases/clases', Array)
+#2 [internal function]: Mindshot\Kiyozumicf\Controllers\ClasesController->index()
+#3 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#4 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#5 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php on line 9
+[03-Jul-2025 06:41:25 UTC] PHP Warning:  require_once(..//css/style.css): Failed to open stream: No such file or directory in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php on line 9
+[03-Jul-2025 06:41:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '..//css/style.css' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php:9
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/Controller.php(10): require_once()
+#1 /home/kiyozumi/public_html/qr/app/Controllers/ClasesController.php(20): Mindshot\Kiyozumicf\Core\Controller->view('Clases/clases', Array)
+#2 [internal function]: Mindshot\Kiyozumicf\Controllers\ClasesController->index()
+#3 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#4 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#5 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php on line 9
+[03-Jul-2025 06:41:47 UTC] PHP Warning:  require_once(../css/style.css): Failed to open stream: No such file or directory in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php on line 9
+[03-Jul-2025 06:41:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../css/style.css' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php:9
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/Controller.php(10): require_once()
+#1 /home/kiyozumi/public_html/qr/app/Controllers/ClasesController.php(20): Mindshot\Kiyozumicf\Core\Controller->view('Clases/clases', Array)
+#2 [internal function]: Mindshot\Kiyozumicf\Controllers\ClasesController->index()
+#3 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#4 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#5 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php on line 9
+[03-Jul-2025 06:43:30 UTC] PHP Warning:  require_once(../css/style.css): Failed to open stream: No such file or directory in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php on line 9
+[03-Jul-2025 06:43:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../css/style.css' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php:9
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/Controller.php(10): require_once()
+#1 /home/kiyozumi/public_html/qr/app/Controllers/ClasesController.php(20): Mindshot\Kiyozumicf\Core\Controller->view('Clases/clases', Array)
+#2 [internal function]: Mindshot\Kiyozumicf\Controllers\ClasesController->index()
+#3 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#4 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#5 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php on line 9
+[03-Jul-2025 06:46:44 UTC] PHP Warning:  require_once(../css/style.css): Failed to open stream: No such file or directory in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php on line 9
+[03-Jul-2025 06:46:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../css/style.css' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php:9
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/Controller.php(10): require_once()
+#1 /home/kiyozumi/public_html/qr/app/Controllers/ClasesController.php(20): Mindshot\Kiyozumicf\Core\Controller->view('Clases/clases', Array)
+#2 [internal function]: Mindshot\Kiyozumicf\Controllers\ClasesController->index()
+#3 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#4 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#5 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php on line 9
+[03-Jul-2025 06:47:44 UTC] PHP Warning:  require_once(../public/css/style.css): Failed to open stream: No such file or directory in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php on line 9
+[03-Jul-2025 06:47:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../public/css/style.css' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php:9
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/Controller.php(10): require_once()
+#1 /home/kiyozumi/public_html/qr/app/Controllers/ClasesController.php(20): Mindshot\Kiyozumicf\Core\Controller->view('Clases/clases', Array)
+#2 [internal function]: Mindshot\Kiyozumicf\Controllers\ClasesController->index()
+#3 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#4 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#5 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php on line 9
+[03-Jul-2025 06:47:50 UTC] PHP Warning:  require_once(../public/css/style.css): Failed to open stream: No such file or directory in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php on line 9
+[03-Jul-2025 06:47:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../public/css/style.css' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php:9
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/Controller.php(10): require_once()
+#1 /home/kiyozumi/public_html/qr/app/Controllers/ClasesController.php(20): Mindshot\Kiyozumicf\Core\Controller->view('Clases/clases', Array)
+#2 [internal function]: Mindshot\Kiyozumicf\Controllers\ClasesController->index()
+#3 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#4 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#5 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Views/Clases/clases.php on line 9
+[03-Jul-2025 20:23:12 UTC] PHP Fatal error:  Uncaught Error: Cannot call constructor in /home/kiyozumi/public_html/qr/app/Controllers/WebsiteController.php:17
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/App.php(25): Mindshot\Kiyozumicf\Controllers\WebsiteController->__construct()
+#1 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#2 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Controllers/WebsiteController.php on line 17
+[03-Jul-2025 22:37:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'is_active' at row 1 in /home/kiyozumi/public_html/qr/app/Models/WebsiteSlider.php:89
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Models/WebsiteSlider.php(89): PDOStatement->execute(Array)
+#1 /home/kiyozumi/public_html/qr/app/Controllers/WebsiteController.php(197): Mindshot\Kiyozumicf\Models\WebsiteSlider->updateSlider(2, 'Esfuerzate para...', 'Vida Mejor', 'ATR\xC3\x89VETE A DAR...', 'NOSOTROS TE LLE...', 'assets/images/m...', 'mujer.png', 0, false)
+#2 [internal function]: Mindshot\Kiyozumicf\Controllers\WebsiteController->updateSlider('2')
+#3 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#4 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#5 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Models/WebsiteSlider.php on line 89
+[04-Jul-2025 19:10:58 UTC] PHP Warning:  require_once(../app/Views/Clases/ver_todas.php): Failed to open stream: No such file or directory in /home/kiyozumi/public_html/qr/app/Core/Controller.php on line 10
+[04-Jul-2025 19:10:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../app/Views/Clases/ver_todas.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/kiyozumi/public_html/qr/app/Core/Controller.php:10
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Controllers/ClasesController.php(147): Mindshot\Kiyozumicf\Core\Controller->view('Clases/ver_toda...', Array)
+#1 [internal function]: Mindshot\Kiyozumicf\Controllers\ClasesController->verTodas()
+#2 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#3 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#4 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Core/Controller.php on line 10
+[08-Jul-2025 03:30:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Mindshot\Kiyozumicf\Controllers\MaquinasController::ver(), 0 passed and exactly 1 expected in /home/kiyozumi/public_html/qr/app/Controllers/MaquinasController.php:139
+Stack trace:
+#0 [internal function]: Mindshot\Kiyozumicf\Controllers\MaquinasController->ver()
+#1 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#2 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#3 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Controllers/MaquinasController.php on line 139
+[08-Jul-2025 16:16:37 UTC] PHP Warning:  Undefined array key "videos" in /home/kiyozumi/public_html/qr/app/Controllers/MaquinasController.php on line 75
+[08-Jul-2025 17:22:04 UTC] PHP Warning:  Undefined array key "videos" in /home/kiyozumi/public_html/qr/app/Controllers/MaquinasController.php on line 75
+[10-Jul-2025 01:20:13 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Mindshot\Kiyozumicf\Controllers\AuthController does not have a method "index" in /home/kiyozumi/public_html/qr/app/Core/App.php:36
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#1 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#2 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Core/App.php on line 36
+[10-Jul-2025 01:20:14 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Mindshot\Kiyozumicf\Controllers\AuthController does not have a method "index" in /home/kiyozumi/public_html/qr/app/Core/App.php:36
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#1 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#2 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Core/App.php on line 36
+[10-Jul-2025 01:20:26 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Mindshot\Kiyozumicf\Controllers\AuthController does not have a method "index" in /home/kiyozumi/public_html/qr/app/Core/App.php:36
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#1 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#2 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Core/App.php on line 36
+[10-Jul-2025 01:20:27 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Mindshot\Kiyozumicf\Controllers\AuthController does not have a method "index" in /home/kiyozumi/public_html/qr/app/Core/App.php:36
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#1 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#2 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Core/App.php on line 36
+[10-Jul-2025 01:20:31 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Mindshot\Kiyozumicf\Controllers\AuthController does not have a method "index" in /home/kiyozumi/public_html/qr/app/Core/App.php:36
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#1 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#2 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Core/App.php on line 36
+[10-Jul-2025 01:20:44 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Mindshot\Kiyozumicf\Controllers\AuthController does not have a method "index" in /home/kiyozumi/public_html/qr/app/Core/App.php:36
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#1 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#2 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Core/App.php on line 36
+[10-Jul-2025 01:20:50 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Mindshot\Kiyozumicf\Controllers\AuthController does not have a method "index" in /home/kiyozumi/public_html/qr/app/Core/App.php:36
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#1 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#2 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Core/App.php on line 36
+[10-Jul-2025 01:21:53 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Mindshot\Kiyozumicf\Controllers\AuthController does not have a method "index" in /home/kiyozumi/public_html/qr/app/Core/App.php:36
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#1 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#2 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Core/App.php on line 36
+[10-Jul-2025 01:23:05 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Mindshot\Kiyozumicf\Controllers\AuthController does not have a method "index" in /home/kiyozumi/public_html/qr/app/Core/App.php:36
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#1 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#2 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Core/App.php on line 36
+[10-Jul-2025 01:23:05 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Mindshot\Kiyozumicf\Controllers\AuthController does not have a method "index" in /home/kiyozumi/public_html/qr/app/Core/App.php:36
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#1 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#2 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Core/App.php on line 36
+[10-Jul-2025 01:23:09 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Mindshot\Kiyozumicf\Controllers\AuthController does not have a method "index" in /home/kiyozumi/public_html/qr/app/Core/App.php:36
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#1 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#2 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Core/App.php on line 36
+[10-Jul-2025 01:23:09 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Mindshot\Kiyozumicf\Controllers\AuthController does not have a method "index" in /home/kiyozumi/public_html/qr/app/Core/App.php:36
+Stack trace:
+#0 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#1 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#2 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Core/App.php on line 36
+[10-Jul-2025 01:30:20 UTC] PHP Fatal error:  Cannot redeclare Mindshot\Kiyozumicf\Models\Maquina::obtenerTodas() in /home/kiyozumi/public_html/qr/app/Models/Maquina.php on line 117
+[10-Jul-2025 01:41:58 UTC] PHP Fatal error:  Uncaught Error: Class "Mindshot\Kiyozumicf\Controllers\Clase" not found in /home/kiyozumi/public_html/qr/app/Controllers/MaquinasController.php:220
+Stack trace:
+#0 [internal function]: Mindshot\Kiyozumicf\Controllers\MaquinasController->ver('27')
+#1 /home/kiyozumi/public_html/qr/app/Core/App.php(36): call_user_func_array(Array, Array)
+#2 /home/kiyozumi/public_html/qr/public/index.php(9): Mindshot\Kiyozumicf\Core\App->__construct()
+#3 {main}
+  thrown in /home/kiyozumi/public_html/qr/app/Controllers/MaquinasController.php on line 220

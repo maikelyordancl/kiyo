@@ -1,0 +1,141 @@
+body {
+  background: #191b1f;
+  color: #fff;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.container-edit {
+  max-width: 750px;
+  margin: 2rem auto;
+  background: #1a1a1a;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 16px rgba(10,10,10,0.5);
+  padding: 2rem;
+  position: relative;
+}
+
+.form-label {
+  color: #fff;
+}
+
+.btn-red {
+  background: #c30010;
+  color: #fff;
+  border: none;
+}
+.btn-red:hover, .btn-red:focus {
+  background: #a5000e;
+  color: #fff;
+}
+
+.thumb-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-right: 8px;
+  border: 2px solid #c30010;
+}
+
+.video-thumb {
+  width: 120px;
+  height: 68px;
+  border-radius: 0.5rem;
+  background: #222;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.icon-btn {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-left: 5px;
+}
+.icon-btn:hover {
+  color: #c30010;
+}
+
+.quill-editor .ql-toolbar {
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.quill-editor .ql-container {
+  border-radius: 0 0 0.5rem 0.5rem;
+  background: #212227;
+  color: #fff;
+  min-height: 120px;
+}
+.quill-editor .ql-editor {
+  color: #fff;
+}
+
+.card {
+  background: #22242a;
+  border: none;
+  border-radius: 1rem;
+}
+
+@media (max-width: 575.98px) {
+  .container-edit {
+    padding: 1rem;
+  }
+}
+.carousel-inner {
+  background-color: #111;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.carousel-item iframe {
+  border-radius: 0.75rem;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #c30010;
+  border-radius: 50%;
+}
+.machine-header {
+      background: #1a1a1a;
+      border-radius: 2rem 2rem 0 0;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+      padding: 1.2rem 1rem 1rem 1rem;
+      text-align: center;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      position: relative;
+    }
+    .machine-title {
+      color: #c30010;
+      font-size: 2.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+    .machine-img-ident {
+      width: 150px;
+      height: 150px;
+      object-fit: contain;
+      background: #232323;
+      border-radius: 2rem;
+      box-shadow: 0 0 10px #222;
+      margin-bottom: 1rem;
+      border: 4px solid #222;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .machine-status {
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 1.5rem;
+      display: inline-block;
+      padding: 0.3em 1.1em;
+      margin-bottom: 1rem;
+      color: #fff;
+    }
+    .machine-status.active {
+      background: #27c600;
+    }
+    .machine-status.inactive {
+      background: #c30010;
+    }

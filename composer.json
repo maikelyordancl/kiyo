@@ -1,0 +1,15 @@
+{
+    "name": "mindshot/kiyozumicf",
+    "description": "Sistema de generación de QR para maquinas de gimnasio.",
+    "autoload": {
+        "psr-4": {
+            "Mindshot\\Kiyozumicf\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tecla"
+        }
+    ],
+    "require": {}
+}

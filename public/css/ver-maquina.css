@@ -1,0 +1,219 @@
+body {
+  background: #17171a;
+  color: #fff;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.machine-header {
+  background: #1a1a1a;
+  border-radius: 2rem 2rem 0 0;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+  padding: 1.2rem 1rem 1rem 1rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.machine-title {
+  color: #c30010;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.machine-img-ident {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  background: #232323;
+  border-radius: 2rem;
+  box-shadow: 0 0 10px #222;
+  margin-bottom: 1rem;
+  border: 4px solid #222;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.machine-status {
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 1.5rem;
+  display: inline-block;
+  padding: 0.3em 1.1em;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.machine-status.active {
+  background: #27c600;
+}
+
+.machine-status.inactive {
+  background: #c30010;
+}
+
+.desc-box {
+  background: #212127;
+  border-radius: 1rem;
+  padding: 1.1rem 1rem;
+  margin-bottom: 1.5rem;
+  min-height: 80px;
+  word-break: break-word;
+}
+
+.desc-box p {
+  margin: 0 0 0.5em 0;
+  font-size: 1.13rem;
+}
+
+/* Galería Swiper */
+.swiper {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.16);
+  margin: 0 auto 2rem auto;
+}
+
+.swiper-slide {
+  background: #17171a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 350px;
+}
+
+.img-fluid {
+  display: block;
+  max-width: 95%;
+  max-height: 320px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+  border-radius: 1rem;
+  background: #222;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.09);
+}
+
+/* Videos carousel */
+.videos-carousel {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 1.5rem auto;
+}
+
+.video-thumb {
+  width: 100%;
+  height: 350px;
+  min-height: 350px;
+  background: #191b1f;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.09);
+}
+
+@media (max-width: 575.98px) {
+  .machine-header { padding: 1rem 0.2rem 0.7rem 0.2rem; }
+  .machine-title { font-size: 1.3rem; }
+  .machine-img-ident { width: 90px; height: 90px; }
+  .swiper { max-width: 98vw; }
+  .img-fluid { max-height: 160px; }
+  .video-thumb { height: 220px; }
+}
+h5 {
+  color: #c30010;
+}
+
+.swiper {
+  margin-bottom: 2.5rem;
+}
+
+.embed-responsive {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.embed-responsive iframe {
+  pointer-events: auto;
+}
+
+.swiper-slide iframe {
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.videosSwiper .swiper-slide {
+  cursor: grab;
+}
+
+.videosSwiper .swiper-slide:active {
+  cursor: grabbing;
+}
+/* Botones Swiper más grandes y visibles */
+.swiper-button-next, .swiper-button-prev {
+  color: #c30010;
+  background-color: rgba(0,0,0,0.6);
+  padding: 10px;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+  font-size: 20px;
+  font-weight: bold;
+}
+/* Descripción con Ver Más */
+.desc-box {
+  background: #212127;
+  border-radius: 1rem;
+  padding: 1.1rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.desc-box.collapsed {
+  max-height: 300px;
+}
+
+.desc-fade {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: linear-gradient(to bottom, rgba(33,33,39,0) 0%, #212127 100%);
+  border-radius: 0 0 1rem 1rem;
+  pointer-events: none;
+}
+
+.btn-vermas {
+  display: block;
+  margin: 0 auto;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #c30010;
+  border-radius: 20px;
+  padding: 4px 16px;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+  margin-bottom: 20px;
+}
+
+.btn-vermas:hover {
+  background-color: #c30010;
+  color: white;
+}
+
+/* Que no se corte en móviles */
+@media (max-width: 575.98px) {
+  .desc-box.collapsed {
+    max-height: 200px;
+  }
+}
